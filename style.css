@@ -1,0 +1,22 @@
+
+#header {
+  color: white;
+  text-align: center;
+}
+
+.banner {
+  background-image: url(..img/spacebanner.png);
+  padding 100px;
+  margin 100px;
+
+}
+
+body {
+  background: black;
+}
+
+#image1 {
+  height:300px;
+  width:1450px;
+  align:center;
+}
