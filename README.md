@@ -68,3 +68,10 @@ SHARIL :
 - game features ( includes in JS only)
 - Basically have to make the game work
 - any resources you need aenon and zain will help
+
+
+JEORME :
+- JS - with assistance of aenon and zain
+- game features ( includes in JS only)
+- Basically have to make the game work
+- any resources you need aenon and zain will help
