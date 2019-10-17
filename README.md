@@ -1,6 +1,6 @@
 ### Group
 
-Zain, Shayaan, Sharil
+Zain, Shayaan, Sharil, Jeorme
 
 ## Game Ideas
 
