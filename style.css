@@ -20,3 +20,41 @@ body {
   width:1450px;
   align:center;
 }
+
+#startbutton {
+  text-decoration: none;
+    font-weight: bold;
+    color: red;
+    background-color: black;
+    margin-top:15px;
+    margin-left: 590px;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    height: 60px;
+}
+
+#welcomeimage {
+  align:center;
+  margin-top:40px;
+  margin-left: 110px;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#maps {
+  align:center;
+  margin-top:40px;
+  margin-left: 110px;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
