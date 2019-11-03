@@ -1,3 +1,5 @@
+NOTE: Game HTML File is indexGame.js, so it works only in this game index, and not in the other index(for other)
+
 ### Group
 
 Zain, Shayaan, Sharil, Jeorme
