@@ -6,8 +6,8 @@
 
 .banner {
   background-image: url(..img/spacebanner.png);
-  padding: 100px;
-  margin: 100px;
+  padding 100px;
+  margin 100px;
 
 }
 
@@ -18,10 +18,10 @@ body {
 #image1 {
   height:300px;
   width:1450px;
-  align: center;
+  align:center;
 }
 
-#startbutton {
+/*#startbutton {
   text-decoration: none;
     font-weight: bold;
     color: red;
@@ -35,7 +35,7 @@ body {
     padding-bottom: 10px;
     width: 150px;
     height: 60px;
-}
+}*/
 
 #welcomeimage {
   align:center;
@@ -57,4 +57,15 @@ body {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#button {
+
+ height: 100px;
+  width: 100px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ margin-top: 30px;
 }
