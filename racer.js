@@ -12,8 +12,8 @@ var canvas   = document.getElementById('canvas'),
 	elPY     = document.getElementById('py')
 ;
 
-track.src = "track.png";
-trackHit.src = "track-hit.png";
+track.src = "track2Reform.png";
+trackHit.src = "track-hit2Reform.png";
 
 // collision
 var hit = new HitMap(trackHit);
