@@ -1,0 +1,47 @@
+var h1 = document.getElementsByTagName('h1')[0],
+    START = document.getElementById('START'),
+    STOP = document.getElementById('STOP'),
+    RESET = document.getElementById('RESET'),
+    milliseconds = 0, secondsseconds = 0, minutes = 0, hours = 0,
+    T;
+
+function add() {
+  milliseconds++;
+  if (milliseconds >= 99) {
+      milliseconds = 0;    
+      seconds++;
+      if (seconds >= 60) {
+          seconds = 0;
+          minutes++;
+          if (minutes >= 60) {
+            minutes = 0;
+            hours++;
+        }
+    }
+ }
+    
+    h1.textContent = (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds)  + ":" + (milliseconds > 9 ? milliseconds : "0" + milliseconds);
+
+    TIMER();
+}
+function TIMER() {
+    T = setTimeout(add, 1000);
+}
+TIMER();
+
+
+/* Start button */
+START.onclick = TIMER;
+
+/* Stop button */
+STOP.onclick = function() {
+    clearTimeout(T);
+}
+
+/* Clear button */
+CLEAR.onclick = function() {
+    h1.textContent = "00:00:00:00";
+    milliseconds = 0; seconds = 0; minutes = 0; hours = 0;
+}
+
+https://jsfiddle.net/Daniel_Hug/pvk6p/ 
