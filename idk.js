@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 })
 app.use('/client', express.static(__dirname + '/client'))
 
-serv.listen(2020)
+serv.listen(2060)
 console.log('Server started')
 
 var io = require('socket.io')(serv, {})
