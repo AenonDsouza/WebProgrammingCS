@@ -1,9 +1,9 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Formula S</title>
-		<link href="/client/racer.css" rel="stylesheet">
-		<style type="text/css">
+		<title>Formula</title>
+		<!-- <link href="/client/racer.css" rel="stylesheet"> -->
+		 <style type="text/css">
 			body {
 				background: #ffffff;
 			}
@@ -15,17 +15,17 @@
 			#info {
 				display: none;
 			}
-		</style>
+		</style> 
 	</head>
 	<body>
-		<div id="signDiv">
+		<!-- <div id="signDiv">
 			Username: <input id="signDiv-username" type="text"></input><br>
 			Password: <input id="signDiv-password" type="password"></input>
 			<button id="signDiv-signIn">Sign In</button>
 			<button id="signDiv-signUp">Sign Up</button>
-		</div>
+		</div> -->
 		
-		<div id = "game" style = "Display:none;">
+		<div id = "game">
 			<canvas id="canvas" width="1000" height="700"></canvas>
 		</div>
 		
@@ -33,7 +33,7 @@
 			Player: x <span id="px">0</span> y <span id="py"></span>
 		</div>
 		
-		<!-- comment out 
+		<!-- comment out
 		
 		<script src="/client/js/jquery.js"></script>
 		<script src="/client/js/helpers.js"></script>
@@ -48,7 +48,7 @@
 		
 		<script src = "https://cdn.socket.io/socket.io-1.4.5.js"> </script>
 
-		<script>
+		<!-- <script>
 		
 		var socket = io();
    
@@ -147,7 +147,7 @@
         	socket.emit('keyPress',{inputId:'mouseAngle',state:angle});
     	}
 			   
-		</script>
+		</script> -->
 	
 	</body>
 	
